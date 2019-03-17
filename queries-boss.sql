@@ -1,4 +1,3 @@
-
 -- employees and their boss
 select e.ename, e.job, b.ename boss
     from emp e left join emp b on (e.mgr = b.empno);
